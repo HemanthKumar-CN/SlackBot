@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/HemanthKumar-CN/SlackBot/issues"
   },
-  "homepage": "https://github.com/HemanthKumar-CN/SlackBot#readme"
+  "homepage": "https://github.com/HemanthKumar-CN/SlackBot#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.14.0",
+    "@slack/socket-mode": "^1.3.2",
+    "@slack/web-api": "^6.9.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
 }
